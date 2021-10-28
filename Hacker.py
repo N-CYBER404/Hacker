@@ -77,7 +77,7 @@ cpb = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-logo1 = '\n      \x1b[37;1\n       \x1b[101m\x1b[1;92m╔══╗ ♫♪ n\x1b[1;96m║██║ ♪♪ n\x1b[1;96m║██║♫♪ n\x1b[1;96m║  ◎♫♪♫   [♫] HACKERS BANGLADESH [♫] n\x1b[1;96m╚o00╝═════════00o═════════════════════════╗ n\x1b[1;96m║✯Creator : Mr. NIKI ║ n\x1b[1;96║✯YouTube : JAMES NIKI ║ n\x1b[1;96m║✯Facebook : Niki.Cyber404 ║ n\x1b[1;96m║✯WhatsApp : +8801927294533 ║ n\x1b[1;96m║✯GitHub : Niki-Cyber404 ║ n\x1b[1;96m╚═════════════════════════════════════════╝'
+logo1 = '\n      \x1b[37;1\n       \x1b[101m\x1b[1;92m╔══╗ ♫♪ n\x1b[1;96m║██║ ♪♪ n\x1b[1;96m║██║♫♪ n\x1b[1;96m║  ◎♫♪♫   [♫] HACKERS BANGLADESH [♫] n\x1b[1;96m╚o00╝═════════00o═════════════════════════╗ n\x1b[1;96m║Creator : Mr. NIKI ║ n\x1b[1;96║YouTube : JAMES NIKI ║ n\x1b[1;96m║Facebook : Niki.Cyber404 ║ n\x1b[1;96m║WhatsApp : +8801927294533 ║ n\x1b[1;96m║GitHub : Niki-Cyber404 ║ n\x1b[1;96m╚═════════════════════════════════════════╝'
 def lisensi():
     os.system('clear')
     login()
