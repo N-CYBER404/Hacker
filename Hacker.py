@@ -77,20 +77,18 @@ cpb = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-logo1 = """
-print '       """
-print '\x1b[1;92m╔══╗ ♫♪ '
-print '\x1b[1;92m║██║ ♪♪ '
-print '\x1b[1;92m║██║♫♪ '
-print '\x1b[1;92m║ ◎♫♪♫   [♫] HACKERS BANGLADESH [♫]'
-print '\x1b[1;91m╚o00╝═════════00o═════════════════════════╗'
-print '\x1b[1;92m║✯Creator : Mr. NIKI ║'
-print '\x1b[1;92m║✯YouTube  : JAMES NIKI ║'
-print '\x1b[1;92m║✯Facebook : Niki.Cyber404 ║'
-print '\x1b[1;92m║✯WhatsApp : +8801927294533 ║'
-print '\x1b[1;92m║✯GitHub   : Niki-Cyber404 ║'
-print '\x1b[1;91m╚════════════════════════════════════════╝'
-print '       """
+logo1 = ''''''
+print '\x1b[1;93mHACKERS BANGLADESH '
+print'\033[1;92m-----------------------------------------------'
+print'\033[1;92m>> AUTHOR       : NIKI HACKER'
+print'\033[1;92m>> FACEBOOK   : Niki.Cyber404'
+print'\033[1;92m>> YOUTUBE      : JAMES NIKI'
+print'\033[1;92m>> INSTAGRAM : niki.cyber404'
+print'\033[1;92m>> TELEGRAM   : @niki_cyber404'
+print'\033[1;92m>> GITHUB         : Niki-Cyber404'
+time.sleep(0.05)    
+print'\033[1;92m-----------------------------------------------'
+print '                             '          
 def lisensi():
     os.system('clear')
     login()
