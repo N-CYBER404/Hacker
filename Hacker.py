@@ -792,7 +792,7 @@ class crack2:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                print('\033[1;92m[•] NIKI-OK Saved ID NIKI-OK.txt')
+                                print('\033[1;92m[•] NIKI-OK Saved ID NIKI-OK.txt')
 				print('\033[1;92m[•] NIKI-CP Saved ID NIKI-CP.txt')
 				print('\033[1;96m══════════════════════════════════════════')
 			ThreadPool(30).map(self.main,self.fl)
