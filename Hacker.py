@@ -182,11 +182,11 @@ def menu():
   elif mn=="4":
     like()
   elif mn=="5":
-    print('──────────────────────────────────────────')
-    print('[1] Lihat Hasil Ok')
-    print('[2] Lihat Hasil Cp')
-    print('[0] Kembali')
-    print('──────────────────────────────────────────')
+    print('\033[1;96m══════════════════════════════════════════')
+    print('\033[1;92m[1] CRACK ID NIKI-OK')
+    print('\033[1;92m[2] CRACK ID NIKI-CP')
+    print('\033[1;92m[0] BACK')
+    print('\033[1;96m══════════════════════════════════════════')
     hs = raw_input('[?] Input : ')
     if hs == '':
         menu()
@@ -229,7 +229,7 @@ def teman():
         try:
 		limit = '5000'
                 file = 'rozhak.json'
-		print('──────────────────────────────────────────')
+		print('\033[1;96m══════════════════════════════════════════')
 		print('[•] Nama File : '+file)
                 try:
                    r=requests.get("https://graph.facebook.com/me/friends?access_token="+toket+"&limit="+limit)
@@ -572,7 +572,7 @@ class crack:
 			for i in self.fl:
 				i.update({"pw":self.pw})
                         print('[•]  NIKI-OK Saved ID OK.txt')
-				        print('[•]  NIKI-CP Saved ID CP.txt')
+                        print('[•]  NIKI-CP Saved ID CP.txt')
 			print('\033[1;96m══════════════════════════════════════════')
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
