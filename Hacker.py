@@ -499,9 +499,17 @@ def generate(text):
 			if len(i)==3 or len(i)==4 or len(i)==5:
 				results.append(i+"123")
 				results.append(i+"1234")
+			        results.append("445566")
+		         	results.append("223344")
+			        results.append("778899")
+			        results.append("123456")
 			else:
 				results.append(i+"123")
 				results.append(i+"1234")
+			        results.append("445566")
+		         	results.append("223344")
+			        results.append("778899")
+			        results.append("123456")
 				results.append(i+"12345")
 				results.append(i+"123456")
 				results.append(i)
@@ -678,7 +686,7 @@ class crack1:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                print('\033[1;92m[•] NIKI-OK Saved ID NIKI-OK.txt')
+                                print('\033[1;92m[•] NIKI-OK Saved ID NIKI-OK.txt')
 				print('\033[1;92m[•] NIKI-CP Saved ID NIKI-CP.txt')
 				print('\033[1;96m══════════════════════════════════════════')
 			ThreadPool(30).map(self.main,self.fl)
